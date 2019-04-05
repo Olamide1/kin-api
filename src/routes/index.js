@@ -15,6 +15,11 @@ const routes = [
         method: 'POST',
         url: '/api/login',
         handler: userController.signIn
+    },
+    {
+        method: 'POST',
+        url: '/api/update',
+        handler: userController.updateProfile
     }
 ];
 
